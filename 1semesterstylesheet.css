@@ -1,9 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
 .headbanner {
-	height: 20px;
+	margin-top: 0px;
+	line-height: 75%;
+	height: 40px;
 	width: 100%;
 	background-color: hotpink;
 	text-align: center;
+	
+}
+
+body {
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
