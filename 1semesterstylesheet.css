@@ -5,16 +5,20 @@
 
 .headbanner {
 	margin-top: 0px;
-	line-height: 75%;
-	height: 40px;
+	line-height: 125%;
+	height: 65px;
 	width: 100%;
 	background-color: hotpink;
 	text-align: center;
+	font-size: 50px;
+	color: pink;
+	
 	
 }
 
 body {
 	margin: 0px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Satisfy', cursive;
+
 
 }
