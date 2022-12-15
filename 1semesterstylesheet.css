@@ -44,7 +44,7 @@ body {
 	width: 150px;
 	height: 30px;
 	border: none;
-	color: black;
+	color: pink;
 	background-color: rosybrown;
 	border-radius: 2px;
 	box-shadow: inset 0 0 0 0 grey;
@@ -59,7 +59,7 @@ body {
 }
 
 	.btn-1:hover {
-		color: white;
+		color: pink;
 		cursor: pointer;
 		
 		
@@ -74,7 +74,7 @@ body {
 	bottom: 0%;
 	opacity: 0;
 	content: "";
-	background-color: grey;
+	background-color: hotpink;
 	
 }
 
@@ -91,7 +91,7 @@ body {
 	width: 150px;
 	height: 30px;
 	border: none;
-	color: black;
+	color: pink;
 	background-color: rosybrown;
 	border-radius: 2px;
 	box-shadow: inset 0 0 0 0 grey;
@@ -105,7 +105,7 @@ body {
 }
 
 .btn-2:hover {
-		color: white;
+		color: pink;
 		cursor: pointer;
 		
 		
@@ -120,7 +120,7 @@ body {
 	bottom: 0%;
 	opacity: 0;
 	content: "";
-	background-color: grey;
+	background-color: hotpink;
 
 	 }
 
