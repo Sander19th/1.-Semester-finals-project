@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
 
 
 .headbanner {
@@ -181,15 +189,23 @@ body {
 		z-index: -1;
 						}
 
-
-.container2 {
+#container {
 	min-height: 100%;
-
+	
 }
 
-.main {
+#main {
 	overflow: auto;
 	padding-bottom: 100px;
 	/* padding-bottom decides the height of our footer*/
+	background-color: beige;
+	height: 2000px;
 }
 
+#footer {
+	background-color: hotpink;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
+}
