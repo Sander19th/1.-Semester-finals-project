@@ -20,12 +20,13 @@ html, body {
 	text-align: center;
 	font-size: 52px;
 	color: pink;	
+	font-family: 'Satisfy', cursive;
 	
 }
 
 body {
 	margin: 0px;
-	font-family: 'Satisfy', cursive;
+
 
 
 }
@@ -204,7 +205,6 @@ body {
 
 .container2 {
 	max-width: 1170px;
-	background-color: red;
 	margin: auto;
 }
 
@@ -222,7 +222,6 @@ ul{
 	background-color: hotpink;
 	position: relative;
 	clear: both;
-	font-family: 'Playball', cursive;
 	font-size: 25px;
 	color: pink;
 	padding: 70px 0;
@@ -230,6 +229,67 @@ ul{
 }
 
 .footer-col {
-	
+	width: 25%;
+	padding: 0 0px;
+}
+
+.footer-col h4{
+	font-size: 20px;
+	color: pink;
+	font-family: 'Playball', cursive;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.footer-col h4::before{
+	/*is made for the line under the titles in footer */
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: rosybrown;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 18px;
+	/*controls size of text in footer*/
+	text-transform: capitalize;
+	color: pink;
+	text-decoration: none;
+	/* Removes link-line automatically added for links */
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	padding-left: 8px;
+}
+
+.footer-col .Social-links a{
+	/* used to change display setting on social media icons*/
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rosybrown;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 47px;
+	border-radius: 50%;
+	color: pink;
+	transition: all 0.5s ease;
+}
+
+.footer-col .Social-links a:hover {
+	color: rosybrown;
+	background-color: pink;
 	
 }
