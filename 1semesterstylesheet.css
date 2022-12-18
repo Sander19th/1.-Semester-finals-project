@@ -202,10 +202,34 @@ body {
 	height: 2000px;
 }
 
+.container2 {
+	max-width: 1170px;
+	background-color: red;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+	
+}
+
 #footer {
 	background-color: hotpink;
 	position: relative;
-	height: 100px;
-	margin-top: -100px;
 	clear: both;
+	font-family: 'Playball', cursive;
+	font-size: 25px;
+	color: pink;
+	padding: 70px 0;
+	
+}
+
+.footer-col {
+	
+	
 }
