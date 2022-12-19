@@ -87,11 +87,16 @@ body {
 }
 
 .Michelle{
-	padding-top: 50px;
+	
+	margin-top: 55px;
+	padding-top: 10px;
 	height: 280px;
 	width: 400px;
 	float: right;
 	padding-bottom: 10px;
+	border-radius: 20%;
+	margin-bottom: 80px;
+	
 	
 	
 }
