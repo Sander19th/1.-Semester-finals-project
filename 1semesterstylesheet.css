@@ -35,6 +35,11 @@ body {
 	padding: 0;
 }
 
+.Frontpage {
+	padding: 40px;
+	text-align: center;
+	
+}
 /*
 .slidershow {
 	width: 700px;
@@ -137,14 +142,18 @@ input[name="r"] {
 	.Aboutus {
 	width: 50%;
 	float: left;
+	border-radius: 20%;
+	background-color: pink;
+	margin-top: 100px;
 }
 
 .Aboutus h5{
 	font-family: 'Playball';
 	font-size: 30px;
 	color: hotpink;
-	padding: 30px 0px 0px 30px	
+	padding: 20px 0px 0px 60px;	
 		/* First 30px(From the top) Second 30px(From the left and right side) Third 30px(From the bottom)*/
+	
 	
 }
 
@@ -152,7 +161,7 @@ input[name="r"] {
 .Aboutus p{
 	color: rosybrown;
 	font-family: 'Lobster', cursive;
-	padding: 20px 0px 0px 30px;
+	padding: 20px 20px 30px 30px;
 	font-size: 19px;
 		/* First 0px(From the top) Second 30px(From the left and right side) Third 30px(From the bottom)*/
 		
@@ -160,8 +169,7 @@ input[name="r"] {
 
 .Michelle{
 	
-	margin-top: 30px;
-	padding-top: 10px;
+	margin-top: 300px;
 	height: 280px;
 	width: 400px;
 	float: right;
