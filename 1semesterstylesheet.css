@@ -36,8 +36,25 @@ body {
 }
 
 .Frontpage {
-	padding: 40px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 100%;
 	text-align: center;
+	
+	
+}
+
+.topcenter {
+	position: absolute;
+	text-align: center;
+	font-size: 110px;
+	font-family: 'Playball', cursive;
+	color: rosybrown;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 60%);
+	letter-spacing: 1px;
+		
 	
 }
 /*
@@ -425,6 +442,7 @@ input[name="r"] {
 	background-color: beige;
 	height: 2000px;
 }
+	
 	
 .container2 {
 	max-width: 1170px;
