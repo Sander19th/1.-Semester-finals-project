@@ -4,10 +4,12 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html, body {
 	height: 100%;
+	
 }
 
 
@@ -62,16 +64,25 @@ body {
 	font-family: 'Lobster', cursive;
 	margin-top: 120px;
 	margin-bottom: 20px;
-	margin-left: 40px;
+	margin-left: 80px;
 	color: black;
-	
 }
 
-.stroke-text{
-	font-size: 100px;
-	font-family: 'Playball';
-  -webkit-text-stroke:2px black;
-  -webkit-text-fill-color:transparent;
+.image-grid {
+	box-sizing: border-box;
+	padding: 16px;
+	
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 300px;
+	gap: 16px;
+}
+
+.image-grid > img {
+	/* Using > to only target pictures in div class="image-grid"*/
+	width: 100%;
+	height: 100%;
+	object-fit: contain
 }
 
 /*
