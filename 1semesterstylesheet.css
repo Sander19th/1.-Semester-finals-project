@@ -26,6 +26,29 @@ html, body {
 	
 }
 
+.container4 {
+	text-align: right;
+	
+}
+
+.header-cart {
+		display: inline-block;
+	height: 60px;
+	width: 60px;
+	background-color: rosybrown;
+	margin:0 10px 10px 0;
+	text-align: left;
+	line-height: 47px;
+	border-radius: 50%;
+	color: pink;
+	transition: all 0.5s ease;	
+}
+
+.header-cart:hover {
+	color: rosybrown;
+	background-color: pink;
+}
+
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
