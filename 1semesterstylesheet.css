@@ -12,6 +12,14 @@ html, body {
 	
 }
 
+.container4 {
+	padding-top: 3px;
+	float: right;
+	padding-right: 30px;
+	color: pink;
+	
+}
+
 
 .headbanner {
 	margin-top: 0px;
@@ -21,30 +29,26 @@ html, body {
 	background-color: hotpink;
 	text-align: center;
 	font-size: 52px;
+	padding-left: 100px;
 	color: pink;	
 	font-family: 'Satisfy', cursive;
 	
 }
 
-.container4 {
-	text-align: right;
-	
-}
-
-.header-cart {
-		display: inline-block;
+.header-cart a{
+	display: inline-block;
 	height: 60px;
 	width: 60px;
 	background-color: rosybrown;
-	margin:0 10px 10px 0;
-	text-align: left;
-	line-height: 47px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 46px;
 	border-radius: 50%;
 	color: pink;
 	transition: all 0.5s ease;	
 }
 
-.header-cart:hover {
+.header-cart:hover a{
 	color: rosybrown;
 	background-color: pink;
 }
@@ -676,6 +680,7 @@ ul{
 
 .footer-col ul li a:hover {
 	padding-left: 8px;
+	/* Determines how far the buttons in footer moves when hovering */
 }
 
 .footer-col .Social-links a{
@@ -695,7 +700,6 @@ ul{
 .footer-col .Social-links a:hover {
 	color: rosybrown;
 	background-color: pink;
-	
 }
 
 .container3 {
