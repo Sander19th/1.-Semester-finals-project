@@ -831,13 +831,36 @@ ul{
 	}
 	
 	.accordian-link i{
-		color: black;
+		color: pink;
 		padding: .5rem;
 	}
 	
-	.accordian-link close-circle-outline {
-		diplay:none;
+	#close-circle-outline-1 {
+		font-display: none;
+		display: none;
 	}
+	
+	.answer {
+		max-height: 0;
+		overflow: hidden;
+		position: relative;
+		background-color: rosybrown;
+		color: pink;
+		font-size: 1.4rem;
+		font-family: 'Lobster';
+	}
+	
+	.answer::before{
+		content: "";
+		position: absolute;
+		width: .6rem;
+		height: 90%;
+		background-color: rosybrown;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+	}
+	
 	
 /*Responsive, make it adapat to different screens*/
 @media(max-width: 767px){
