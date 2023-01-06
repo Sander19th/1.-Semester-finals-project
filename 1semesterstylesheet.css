@@ -124,6 +124,8 @@ body {
 	padding: 30px;
 	max-width: 1000px;
 	display: grid;
+	flex-direction: row;
+	justify-content: space-evenly;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 20px;
 }
@@ -131,6 +133,13 @@ body {
 .card {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 	/* RGBA = Red, Green, Blue, Alpha */
+}
+
+.card ion-icon{
+	font-size: 150px;
+	display: block;
+	
+
 }
 
 .card__image {
