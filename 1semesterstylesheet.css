@@ -836,7 +836,6 @@ ul{
 	}
 	
 	#close-circle-outline-1 {
-		font-display: none;
 		display: none;
 	}
 	
@@ -845,9 +844,8 @@ ul{
 		overflow: hidden;
 		position: relative;
 		background-color: rosybrown;
-		color: pink;
-		font-size: 1.4rem;
-		font-family: 'Lobster';
+		transition: max-height 650ms;
+		
 	}
 	
 	.answer::before{
@@ -861,6 +859,47 @@ ul{
 		transform: translateY(-50%);
 	}
 	
+	.answer p{
+		
+		color: pink;
+		font-size: 1.4rem;
+		padding: 2rem;
+		font-family: 'Lobster';
+	}
+	
+	.accordian-item:target .answer {
+		max-height: 20rem;
+	}
+	
+	.accordian-item:target #add-circle-outline-1{
+		display: none;
+	}
+	
+	.accordian-item:target #close-circle-outline-1{
+		display: block;
+	}
+	
+	.Title {
+		background-color: hotpink;
+		font-size: 5rem;
+		align-content: center;
+		justify-content: center;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 40px;
+		padding: 10px 10px 10px;
+		color: pink;
+		font-family: 'Lobster';
+		
+		
+	}
+	
+	.Title a{
+		color: pink;
+		text-decoration: none;
+		font-family: 'Lobster';
+		
+	}
 	
 /*Responsive, make it adapat to different screens*/
 @media(max-width: 767px){
