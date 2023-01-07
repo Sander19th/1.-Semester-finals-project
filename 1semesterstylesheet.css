@@ -885,15 +885,15 @@ ul{
 	.Title {
 		background-color: hotpink;
 		font-size: 5rem;
+		text-align: center;
 		align-content: center;
 		justify-content: center;
-		text-align: center;
 		margin-top: 50px;
 		margin-bottom: 40px;
 		padding: 10px 10px 10px;
 		color: pink;
 		font-family: 'Lobster';
-		border-radius: 45%;
+		
 		
 		
 	}
