@@ -905,6 +905,52 @@ ul{
 		
 	}
 	
+	.custominfo {
+		background-color: rosybrown;
+		font-size: 20px;
+		text-align: center;
+		align-content: center;
+		justify-content: center;
+		margin-top: 0px;
+		margin-bottom: 40px;
+		padding: 10px 10px 10px;
+		color: pink;	
+	}
+	
+	.contactinfo {
+	margin-top: 40px;	
+	font-size: 20px;
+	color: pink;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	position: relative;
+	}
+	
+	.contactinfo h4{
+	font-size: 20px;
+	color: pink;
+	font-family: 'Playball', cursive;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	position: relative;
+	}
+	
+	.contactinfo h4::before {
+		/*is made for the line under the titles in footer */
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: rosybrown;
+	height: 2px;
+	box-sizing: border-box;
+	width: 30%;
+	}
+	
+	.contactinfo p {
+		margin: 10px;
+		font-size: 18px;
+	}
 /*Responsive, make it adapat to different screens*/
 @media(max-width: 767px){
 	.footer-col {
