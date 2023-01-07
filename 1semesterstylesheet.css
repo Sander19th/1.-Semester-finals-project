@@ -98,8 +98,11 @@ body {
 	font-family: 'Lobster', cursive;
 	margin-top: 120px;
 	margin-bottom: 20px;
-	margin-left: 80px;
 	color: hotpink;
+	text-decoration: underline;
+	text-decoration-color: rosybrown;
+	text-align: center;
+	
 }
 
 .image-grid {
@@ -890,6 +893,7 @@ ul{
 		padding: 10px 10px 10px;
 		color: pink;
 		font-family: 'Lobster';
+		border-radius: 45%;
 		
 		
 	}
