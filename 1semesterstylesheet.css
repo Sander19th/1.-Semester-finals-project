@@ -327,7 +327,6 @@ input[name="r"] {
 	height: 280px;
 	width: 400px;
 	float: right;
-	padding-bottom: 10px;
 	border-radius: 20%;
 	margin-bottom: 80px;
 	
@@ -985,11 +984,10 @@ ul{
 }
 	
 	.Wedding {
-	margin-top: 100px;
+	margin-top: 160px;
 	height: 400px;
 	width: 400px;
 	float: right;
-	padding-bottom: 10px;
 	border-radius: 20%;
 	margin-bottom: 80px;
 	}
@@ -998,9 +996,8 @@ ul{
 	height: 400px;
 	width: 400px;
 	float: right;
-	padding-bottom: 10px;
 	border-radius: 20%;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 		
 	}
 
