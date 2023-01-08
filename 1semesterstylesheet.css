@@ -952,12 +952,49 @@ ul{
 		font-size: 18px;
 	}
 	
-	.special-occasions img {
-		width: 350px;
-		height: 350px;
-		border-radius: 30%;
-		margin: 80px 900px;
+	.wrapper1 {
+		width: 1200px;
+		padding-left: 300px;
 	}
+	
+	
+	.Aboutus1 {
+	width: 50%;
+	float: left;
+	border-radius: 20%;
+	background-color: pink;
+	margin-top: 100px;
+}
+	
+	.Aboutus1 h6{
+	font-family: 'Playball';
+	font-size: 30px;
+	color: hotpink;
+	padding: 20px 0px 0px 60px;	
+		/* First 20px(From the top) Second 0px(From the left and right side) Third 0px(From the bottom)*/
+	}
+	
+	.Aboutus1 p{
+	color: rosybrown;
+	font-family: 'Lobster', cursive;
+	padding: 20px 20px 30px 30px;
+	font-size: 19px;
+		/* First 0px(From the top) Second 30px(From the left and right side) Third 30px(From the bottom)*/
+		
+}
+	
+	.Wedding {
+	margin-top: 100px;
+	height: 400px;
+	width: 400px;
+	float: right;
+	padding-bottom: 10px;
+	border-radius: 20%;
+	margin-bottom: 80px;
+	}
+	
+
+	
 /*Responsive, make it adapat to different screens*/
 @media(max-width: 767px){
 	.footer-col {
