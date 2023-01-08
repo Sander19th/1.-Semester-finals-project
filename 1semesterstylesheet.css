@@ -951,6 +951,13 @@ ul{
 		margin: 10px;
 		font-size: 18px;
 	}
+	
+	.special-occasions img {
+		width: 350px;
+		height: 350px;
+		border-radius: 30%;
+		margin: 80px 900px;
+	}
 /*Responsive, make it adapat to different screens*/
 @media(max-width: 767px){
 	.footer-col {
