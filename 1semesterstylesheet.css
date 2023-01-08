@@ -961,9 +961,10 @@ ul{
 	.Aboutus1 {
 	width: 50%;
 	float: left;
-	border-radius: 20%;
+	border-radius: 15%;
 	background-color: pink;
 	margin-top: 100px;
+	margin-bottom: 100px;
 }
 	
 	.Aboutus1 h6{
@@ -993,6 +994,15 @@ ul{
 	margin-bottom: 80px;
 	}
 	
+	.Brand {
+	height: 400px;
+	width: 400px;
+	float: right;
+	padding-bottom: 10px;
+	border-radius: 20%;
+	margin-bottom: 80px;
+		
+	}
 
 	
 /*Responsive, make it adapat to different screens*/
